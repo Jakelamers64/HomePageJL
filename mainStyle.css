@@ -1,0 +1,21 @@
+/*side bar style*/
+
+.sideBar{
+    border-width: 3px;
+    background-color: #ffdb8e;
+    width: 15%;
+    margin: 0px;
+    font-size: 2em;
+    cursor: pointer;
+    display: block;
+}
+
+.header{
+    border-width: 3px;
+    border-color: #000; 
+    background-color: #e6b752;
+    width: 15%;
+    text-align: center;
+    font-size: 3em;
+    margin: 0px;
+}
