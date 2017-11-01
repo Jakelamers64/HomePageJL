@@ -1,21 +1,50 @@
 /*side bar style*/
 
 .sideBar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.links{
     border-width: 3px;
-    background-color: #ffdb8e;
-    width: 15%;
+    background-color: #d901ff;
+    width: 6em;
     margin: 0px;
     font-size: 2em;
     cursor: pointer;
     display: block;
+    position: relative;
+    left: 0px;
 }
 
 .header{
     border-width: 3px;
     border-color: #000; 
-    background-color: #e6b752;
-    width: 15%;
+    background-color: #7a37ff;
+    width: 4em;
     text-align: center;
     font-size: 3em;
     margin: 0px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+/*background image*/
+
+.backgroundImage{
+    background-image: url(https://www.ihdimages.com/wp-content/uploadsktz/2015/02/Parque-Nacional-Torres-del-Paine.jpg) 
+}
+
+/*clock*/
+
+.clock1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    vertical-align: top;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #ff0d00;
+    background-color: #c2bdba; 
 }
