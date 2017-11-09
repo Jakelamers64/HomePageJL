@@ -1,33 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
 /*side bar style*/
 
-.sideBar{
+.topBar{
     position: absolute;
     left: 0px;
     top: 0px;
-}
-.links{
-    border-width: 3px;
-    background-color: #d901ff;
-    width: 6em;
-    margin: 0px;
-    font-size: 2em;
-    cursor: pointer;
-    display: block;
-    position: relative;
-    left: 0px;
+    width: 100%
 }
 
-.header{
-    border-width: 3px;
-    border-color: #000; 
-    background-color: #7a37ff;
-    width: 4em;
-    text-align: center;
-    font-size: 3em;
+.links{
+    background-color: linear-gradient(#d901ff, #9a03ff); 
+    background-color: #d901ff;
+    width: 6em;
+    height: 60px;
     margin: 0px;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    border-left: 0px !important;
+    border-top: 0px !important;
+    cursor: pointer;
+    display: table;
     position: relative;
     left: 0px;
-    top: 0px;
 }
 
 /*background image*/
@@ -39,12 +37,19 @@
 /*clock*/
 
 .clock1{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    vertical-align: top;
+    display: table;
+    margin: 0px;
+    height: 60px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3em;
-    color: #ff0d00;
-    background-color: #c2bdba; 
+    font-size: 2em;
+    border: 3px solid black;
+    border-left: 0px !important;
+    border-top: 0px !important;
+    color: #000;
+    background-color: linear-gradient(#d901ff, #9a03ff); 
+    background-color: #d901ff; 
+    width: 6em;
+    text-align: center;
+    vertical-align: middle;    
 }
+
